@@ -21,6 +21,8 @@ public class MainFrame extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         out.println("<h1>主页面</h1>");
+        //在MainFram添加 返回超链接
+        out.println("<a href='/UsrManager/loginServlet'>返回重新登陆</a>");
 
     }
 }
